@@ -1,0 +1,1052 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>排行榜-佐佐网</title>
+	<meta name="keywords" content="商业源码,源码论坛,asp源码,php源码,站长源码" />
+	<meta name="description" content="源码论坛,商业源码,网站源码,优秀的建站资源尽在佐佐网源码之家" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link rel="shortcut icon" href="/template/mytheme/statics/img/favicon.ico" type="image/x-icon" />					
+<link rel="stylesheet" href="/template/mytheme/statics/css/mytheme-font.css?v=1.2" type="text/css" />
+<link rel="stylesheet" href="/template/mytheme/statics/css/mytheme-ui.css?v=1.2" type="text/css" />
+<link rel="stylesheet" href="/template/mytheme/statics/css/mytheme-site.css?v=1.2" type="text/css" />
+<link rel="stylesheet" href="/template/mytheme/statics/css/mytheme-color.css?v=1.2" type="text/css" name="default" />
+<link rel="stylesheet" href="/template/mytheme/statics/css/mytheme-color.css?v=1.2" type="text/css" name="skin" disabled/>
+<link rel="stylesheet" href="/template/mytheme/statics/css/mytheme-color1.css?v=1.2" type="text/css" name="skin" disabled/>
+<link rel="stylesheet" href="/template/mytheme/statics/css/mytheme-color2.css?v=1.2" type="text/css" name="skin" disabled/>
+<link rel="stylesheet" href="/template/mytheme/statics/css/mytheme-color3.css?v=1.2" type="text/css" name="skin" disabled/>
+<script> 
+	var maccms={"path":"","mid":"","url":"www.test.cn","wapurl":"wap.test.cn","mob_status":"0"};
+	var myui={"tpl":"/template/mytheme/","short":"","shortapi":"","bdapi":"http://bdimg.share.baidu.com/static/api/js/share.js","thunderurl":"//open.thunderurl.com/thunder-link.js","topfixed":"1"};
+</script>
+<script type="text/javascript" src="/template/mytheme/statics/js/jquery.min.js?v=3.3.1"></script>
+<script type="text/javascript" src="/template/mytheme/statics/js/layer/layer.js?v3.1.1"></script>
+<script type="text/javascript" src="/template/mytheme/statics/js/mytheme-site.js?v=1.2"></script>
+<script type="text/javascript" src="/template/mytheme/statics/js/mytheme-ui.js?v=1.2"></script>
+<script type="text/javascript" src="/template/mytheme/statics/js/mytheme-cms.js?v=1.2"></script>
+<script type="text/javascript" src="/static/js/home.js"></script>
+<style type="text/css">body{ font-family:"Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif; padding-top: 130px;}.myui-header__top{ position: fixed;} body.active{padding-top: 110px;}[class*=col-],.myui-content__list li,.myui-vodlist__media.col li{ padding: 10px}.btn{ border-radius: 5px;}.myui-vodlist__thumb{ border-radius:5px; padding-top:150%; background: url(/template/mytheme/statics/img/load.png) no-repeat;}.myui-vodlist__thumb.square{ padding-top: 100%; background: url(/template/mytheme/statics/img/load_f.png) no-repeat;}.myui-vodlist__thumb.wide{ padding-top: 60%; background: url(/template/mytheme/statics/img/load_w.png) no-repeat;}.myui-vodlist__thumb.actor{ padding-top: 140%;}.flickity-prev-next-button.previous{ left: 10px;}.flickity-prev-next-button.next{ right: 10px;}.myui-sidebar{ padding: 0 0 0 20px;}.myui-panel{ margin-bottom: 20px; border-radius: 5px;}.myui-panel-mb{ margin-bottom: 20px;}.myui-player__item .fixed{ width: 500px;}.myui-vodlist__text li a,.myui-vodlist__media li{ padding: 10px 0;}.myui-screen__list{ padding: 10px 10px 0;}.myui-screen__list li{ margin-bottom: 10px; margin-right: 10px;}.myui-page{ padding: 0 10px;}.myui-extra{ right: 20px; bottom: 30px;}@media (min-width: 1200px){.container{ max-width: 1200px;}.container{ padding-left: 0px;  padding-right: 0px;}.container.min{ width: 1200px; padding: 0;}}@media (max-width: 767px){body,body.active{ padding-bottom: 50px;}[class*=col-],.myui-panel,.myui-content__list li{ padding: 5px}.flickity-prev-next-button.previous{ left: 5px;}.flickity-prev-next-button.next{ right: 5px;}.myui-vodlist__text li a,.myui-vodlist__media li{ padding: 10px 0;}.myui-screen__list{ padding: 10px 5px 0;}.myui-screen__list li{ margin-bottom: 5px; margin-right: 5px;}.myui-extra{ right: 20px; bottom: 80px;}.myui-page{ padding: 0 5px;}}.myui-topbg{ position: absolute; top: 0; left: 0; right: 0; width: 100%;  background-image: linear-gradient( 135deg, #583230 10%, #360940 100%);}</style>
+<!--[if lt IE 9]>
+<script src="https://cdn.ceshifile.org/html5shiv/r29/html5.min.js"></script>
+<script src="https://cdn.ceshifile.org/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+</head>
+<body>
+<header class="myui-header__top clearfix" id="header-top">
+	<div class="container">	
+		<div class="row">				
+			<div class="myui-header__logo">			    	
+				<a class="logo" href="/">
+					<img class="img-responsive hidden-xs" src="/template/mytheme/statics/img/logo.png"/>
+					<img class="img-responsive visible-xs" src="/template/mytheme/statics/img/logo_min.png"/>
+				</a>					
+			</div>
+			<ul class="myui-header__menu nav-menu">
+				<li class=" hidden-sm hidden-xs"><a href="/">首页</a></li>
+								<li class=" hidden-sm hidden-xs"><a href="/vodtypehtml/1/">电影</a></li>
+								<li class=" hidden-sm hidden-xs"><a href="/vodtypehtml/2/">连续剧</a></li>
+								<li class=" hidden-sm hidden-xs"><a href="/vodtypehtml/3/">综艺</a></li>
+								<li class=" hidden-sm hidden-xs"><a href="/vodtypehtml/4/">动漫</a></li>
+								<li class=" hidden-sm hidden-xs"><a href="/arttypehtml/5/">资讯</a></li>
+				<li class=" hidden-md hidden-sm hidden-xs"><a href="/topic">专题</a></li><li class=" hidden-md hidden-sm hidden-xs"><a href="/actor">明星</a></li>			</ul>
+			<ul class="myui-header__user">	
+								<li class="hist dropdown-hover">
+					<a href="javascript:;" title="播放记录"> <i class="fa fa-clock-o"></i></a>
+					<div class="dropdown-box fadeInDown">
+						<div class="item clearfix">					
+							<p class="text-muted">
+								<a class="text-red pull-right" href="javascript:;" onclick="MyTheme.Cookie.Del('history','您确定要清除记录吗？');">[清空]</a>
+								播放记录 
+							</p>
+							<div class="history-list clearfix">
+								<script type="text/javascript">
+									var history_get = MyTheme.Cookie.Get("history");
+									if(history_get){
+										var json=eval("("+history_get+")");
+										for(i=0;i<json.length;i++){
+											document.write("<p><a class='text-333' href='"+json[i].link+"' title='"+json[i].name+"'><span class='pull-right text-red'>"+json[i].part+"</span>"+json[i].name+"</a></p>");
+										}
+									} else {
+										document.write("<p style='padding: 80px 0; text-align: center'>您还没有看过影片哦</p>");
+									}
+								</script>
+							</div>
+						</div>
+					</div>	
+				</li>
+				<li><a href="/label/hot.html" title="热播榜单"><i class="fa fa-feed"></i></a></li><li><a href="#" title="下载应用"><i class="fa fa-android"></i></a></li>				<li class="menu dropdown-hover">
+					<a href="javascript:;"><i class="fa fa-user"></i></a>
+					<div class="dropdown-box fadeInDown">
+						<ul class="item clearfix">		
+							<li><a class="text-333" href="/index.php/user/index.html">会员中心</a></li>
+							<li><a class="text-333" href="/index.php/user/favs.html">我的收藏</a></li>
+							<li><a class="text-333" href="/index.php/user/plays.html">播放记录</a></li>
+							<li><a class="text-333" href="/index.php/user/reward.html">我的分销</a></li>
+							<li><a class="text-333" href="/index.php/user/logout.html">退出</a></li>
+						</ul>
+					</div>
+				</li>
+							</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="/template/mytheme/statics/js/jquery.autocomplete.js"></script>	<div class="myui-header__search">				
+		<div class="container">
+			<div class="row">
+								<div class="search-hot hidden-xs pull-right" style="line-height: 48px;">
+					<span><i class="fa fa-send"></i></span>
+										<a href="/vodtypehtml/6/">动作片</a>
+										<a href="/vodtypehtml/7/">喜剧片</a>
+										<a href="/vodtypehtml/8/">爱情片</a>
+										<a href="/vodtypehtml/10/">恐怖片</a>
+										<a href="/vodtypehtml/13/">国产剧</a>
+									</div>
+								<ul class="">
+										<li class="search-ul dropdown-hover">
+						<i class="fa fa-reorder"></i>
+						<div class="dropdown-box bottom fadeInDown clearfix">
+							<ul class="item nav-list clearfix">
+								<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-default" href="/">首页</a></li>
+																<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-default" href="/vodtypehtml/1/">电影</a></li>
+																<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-default" href="/vodtypehtml/2/">连续剧</a></li>
+																<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-default" href="/vodtypehtml/3/">综艺</a></li>
+																<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-default" href="/vodtypehtml/4/">动漫</a></li>
+																<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-default" href="/arttypehtml/5/">资讯</a></li>
+																<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-default" href="/vodtypehtml/6/">动作片</a></li>
+																<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-default" href="/vodtypehtml/7/">喜剧片</a></li>
+																<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-default" href="/vodtypehtml/8/">爱情片</a></li>
+																<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-default" href="/vodtypehtml/9/">科幻片</a></li>
+																<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-default" href="/vodtypehtml/10/">恐怖片</a></li>
+																<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-default" href="/vodtypehtml/11/">剧情片</a></li>
+																<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-default" href="/vodtypehtml/12/">战争片</a></li>
+																<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-default" href="/vodtypehtml/13/">国产剧</a></li>
+																<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-default" href="/vodtypehtml/14/">港台剧</a></li>
+																<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-default" href="/vodtypehtml/15/">日韩剧</a></li>
+																<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-default" href="/vodtypehtml/16/">欧美剧</a></li>
+																<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-default" href="/arttypehtml/17/">公告</a></li>
+																<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-default" href="/arttypehtml/18/">头条</a></li>
+								<li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a  class="btn btn-sm btn-block btn-default" href="/topic">专题</a></li><li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a  class="btn btn-sm btn-block btn-default" href="/actor">明星</a></li>							</ul>
+						</div>
+					</li>
+										<li class="search-select dropdown-hover" href="javascript:;">
+						<span class="text">视频</span> <i class="fa fa-caret-down text-666"></i>
+						<div class="dropdown-box bottom fadeInDown">
+							<div class="item">
+								<p class="vod" data-action="/index.php/vod/search.html">视频</p>
+								<p class="news" data-action="/index.php/art/search.html">资讯</p><p class="actor" data-action="/index.php/actor/search.html">明星</p>							</div>
+						</div>
+					</li>
+										<li class="search-box dropdown-hover" href="javascript:;">
+						<form id="search" name="search" method="get" action="/index.php/vod/search.html" onSubmit="return qrsearch();">
+							<input type="text" id="wd" name="wd" class="search_wd form-control" value="" placeholder="我们都要好好的" autocomplete="off"/>
+							<button class="submit search_submit" id="searchbutton" type="submit" name="submit"><i class="fa fa-search"></i></button>							
+						</form>
+												<div class="search-dropdown-hot dropdown-box bottom fadeInDown">
+							<div class="item">
+								<p class="text-muted">
+									热门搜索
+								</p>
+																<p><a class="text-333" href="/index.php/vod/search/wd/%E7%A5%9E%E9%9B%95%E4%BE%A0%E4%BE%A3%5B%E5%88%98%E4%BA%A6%E8%8F%B2%E7%89%88%5D.html" title=""><span class="badge badge-first">1</span> 神雕侠侣[刘亦菲版]</a></p>
+																<p><a class="text-333" href="/index.php/vod/search/wd/%E7%88%86%E6%AC%BE%E8%AF%9E%E7%94%9F.html" title=""><span class="badge badge-second">2</span> 爆款诞生</a></p>
+																<p><a class="text-333" href="/index.php/vod/search/wd/%E6%96%AF%E5%BE%B7%E5%93%A5%E5%B0%94%E6%91%A9.html" title=""><span class="badge badge-third">3</span> 斯德哥尔摩</a></p>
+																<p><a class="text-333" href="/index.php/vod/search/wd/%E9%AC%BC%E7%9C%A8%E7%9C%BC.html" title=""><span class="badge">4</span> 鬼眨眼</a></p>
+																<p><a class="text-333" href="/index.php/vod/search/wd/%E5%83%B5%E5%B0%B8%E7%88%86%E6%A3%9A%E8%AE%B0.html" title=""><span class="badge">5</span> 僵尸爆棚记</a></p>
+															</div>
+						</div>
+											</li>
+				</ul>
+							</div>
+		</div>						    
+	</div>
+</header>
+
+<div class="container">
+    <div class="row">
+    	<div class="myui-panel myui-panel-bg hiddex-xs clearfix">
+    		<div class="myui-panel-box clearfix">														
+    																
+    			<div class="col-lg-4 col-md-4 col-sm-2 col-xs-1 padding-0">
+    				<div class="myui-panel_hd">
+    					<div class="myui-panel__head clearfix">
+    						<h3 class="title">
+    							电影最近更新    						</h3>		
+    						<a class="more text-muted" href="/index.php/vod/show/by/time/id/1.html">更多 <i class="fa fa-angle-right"></i></a>
+    					</div>
+    				</div>
+    				<div class="myui-panel_bd clearfix">
+						<ul class="myui-vodlist__media active col-pd clearfix">
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-3/a3eff7f94ed2233d5e8c144ef6f0d0c7.jpg);" href="/vodhtml/2460/" title="寻求正义"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2460/"><i class="fa fa-angle-right text-muted pull-right"></i> 寻求正义</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>剧情片，<span class="text-muted">地区：</span>美国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>尼古拉斯·凯奇,盖·皮尔</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/54e51bf204bf2338a1ab3f7f53fc4418.jpg);" href="/vodhtml/2459/" title="血战墓碑镇"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2459/"><i class="fa fa-angle-right text-muted pull-right"></i> 血战墓碑镇</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动作片，<span class="text-muted">地区：</span>美国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>米基·洛克,丹尼·特雷霍</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/0efcc828beb3e147655245661ff93f81.jpg);" href="/vodhtml/2458/" title="血彩"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2458/"><i class="fa fa-angle-right text-muted pull-right"></i> 血彩</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>剧情片，<span class="text-muted">地区：</span>中国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>刘庭羽,李威,吕平滢,张</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/076164c5c207825a12bf49547b0d1676.jpg);" href="/vodhtml/2457/" title="心花怒放"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2457/"><i class="fa fa-angle-right text-muted pull-right"></i> 心花怒放</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>喜剧片，<span class="text-muted">地区：</span>中国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>李雅男,陈美行,胡豆,大</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/4acc839d13ada87f09ba99c412842837.jpg);" href="/vodhtml/2456/" title="笑功震武林"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2456/"><i class="fa fa-angle-right text-muted pull-right"></i> 笑功震武林</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>喜剧片，<span class="text-muted">地区：</span>香港</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>洪金宝,吴君如,郑中基,</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/a4fd35336480286e10f242744f6bf044.jpg);" href="/vodhtml/2455/" title="小时代2：青木时代"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2455/"><i class="fa fa-angle-right text-muted pull-right"></i> 小时代2：青木时</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>剧情片，<span class="text-muted">地区：</span>中国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>杨幂,柯震东,郭采洁,凤</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/76c6b03eab5cbf9db815e321f27807f6.jpg);" href="/vodhtml/2454/" title="我的队长金大出"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2454/"><i class="fa fa-angle-right text-muted pull-right"></i> 我的队长金大出</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>喜剧片，<span class="text-muted">地区：</span>韩国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>郑在咏,张瑞希,南志铉</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/6c562a4f68640468416ef7b97da0ad4d.jpg);" href="/vodhtml/2453/" title="死去活来"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2453/"><i class="fa fa-angle-right text-muted pull-right"></i> 死去活来</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>剧情片，<span class="text-muted">地区：</span>中国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>方子哥,雷鸣,詹萍萍,陈</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/3194a1c02cd758f877b40beae637cdb9.jpg);" href="/vodhtml/2452/" title="南征北战"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2452/"><i class="fa fa-angle-right text-muted pull-right"></i> 南征北战</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>战争片，<span class="text-muted">地区：</span>中国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>王尚信,张勇手,鲁非,白</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/489967b73dbcbe3511074ee3472a6e5f.jpg);" href="/vodhtml/2451/" title="猛犬摔跤王"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2451/"><i class="fa fa-angle-right text-muted pull-right"></i> 猛犬摔跤王</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>喜剧片，<span class="text-muted">地区：</span>美国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>约翰·拉岑贝格,Fred</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/d48a5ca3da60a4d4480104c1cd831830.jpg);" href="/vodhtml/2450/" title="烈士"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2450/"><i class="fa fa-angle-right text-muted pull-right"></i> 烈士</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>剧情片，<span class="text-muted">地区：</span></p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>Carol,Abboud</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/72bc37e239a96930cd740dcdcb384010.jpg);" href="/vodhtml/2449/" title="帝国"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2449/"><i class="fa fa-angle-right text-muted pull-right"></i> 帝国</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动作片，<span class="text-muted">地区：</span>美国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>利亚姆·海姆斯沃斯,道恩</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/60ff824351a8c857e89fb1672ab55d72.jpg);" href="/vodhtml/2448/" title="飞狐外传"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2448/"><i class="fa fa-angle-right text-muted pull-right"></i> 飞狐外传</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动作片，<span class="text-muted">地区：</span>香港</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>黎明,李嘉欣,张敏,徐锦</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/05bdd926d0848c0f14805cd513267fcf.jpg);" href="/vodhtml/2447/" title="等你追我"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2447/"><i class="fa fa-angle-right text-muted pull-right"></i> 等你追我</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>爱情片，<span class="text-muted">地区：</span>中国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>颜丹晨,顾易浩,杨大鹏,</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/c80a5824798dea651d96ab40e3f9c323.jpg);" href="/vodhtml/2446/" title="大喜临门"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2446/"><i class="fa fa-angle-right text-muted pull-right"></i> 大喜临门</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>喜剧片，<span class="text-muted">地区：</span>台湾</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>猪哥亮,林心如,李东学,</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/387ba93fb809723b02b45671deb2e9dc.jpg);" href="/vodhtml/2445/" title="大城小事"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2445/"><i class="fa fa-angle-right text-muted pull-right"></i> 大城小事</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>爱情片，<span class="text-muted">地区：</span>中国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>王菲,黎明,陈建斌,李娜</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/13da4bccf6770159275fdbd3fa6cd0d7.jpg);" href="/vodhtml/2444/" title="璀璨的婚礼"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2444/"><i class="fa fa-angle-right text-muted pull-right"></i> 璀璨的婚礼</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>爱情片，<span class="text-muted">地区：</span>中国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>嘉男海林,郑佩佩,唐士艳</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/570cb0af4417199ad32d358578c42333.jpg);" href="/vodhtml/2443/" title="从天“儿”降"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2443/"><i class="fa fa-angle-right text-muted pull-right"></i> 从天“儿”降</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>喜剧片，<span class="text-muted">地区：</span>中国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>陈学冬,张艺兴,姜雯,李</p>
+	</div>																										
+</li>	
+													</ul>
+
+    				</div>
+    			</div>
+    																
+    			<div class="col-lg-4 col-md-4 col-sm-2 col-xs-1 padding-0">
+    				<div class="myui-panel_hd">
+    					<div class="myui-panel__head clearfix">
+    						<h3 class="title">
+    							连续剧最近更新    						</h3>		
+    						<a class="more text-muted" href="/index.php/vod/show/by/time/id/2.html">更多 <i class="fa fa-angle-right"></i></a>
+    					</div>
+    				</div>
+    				<div class="myui-panel_bd clearfix">
+						<ul class="myui-vodlist__media active col-pd clearfix">
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/3d40096b3ba4666b21c53705f5f2ed31.jpg);" href="/vodhtml/2436/" title="狼溪第二季"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2436/"><i class="fa fa-angle-right text-muted pull-right"></i> 狼溪第二季</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>欧美剧，<span class="text-muted">地区：</span></p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>约翰·贾瑞特,瑞安·柯尔</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/544f768af82368cf4b634f20ac0f5bd5.jpg);" href="/vodhtml/2421/" title="格莫拉第三季"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2421/"><i class="fa fa-angle-right text-muted pull-right"></i> 格莫拉第三季</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>欧美剧，<span class="text-muted">地区：</span>美国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>Marco,D'Amor</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/2a6b0ef942aa090ed415bceae09a1249.jpg);" href="/vodhtml/2420/" title="迷眼第二季"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2420/"><i class="fa fa-angle-right text-muted pull-right"></i> 迷眼第二季</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>欧美剧，<span class="text-muted">地区：</span>美国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>杰弗里·多诺万,卡迪·斯</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/b187e6d1cc8fcde8cfb7b1120d5188b9.jpg);" href="/vodhtml/2412/" title="亲爱的她们"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2412/"><i class="fa fa-angle-right text-muted pull-right"></i> 亲爱的她们</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>国产剧，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>宋丹丹,,张若昀,,姜妍</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/f968efb7a6b74d6f4d459d0b4a1cb9d7.jpg);" href="/vodhtml/2409/" title="世上最美丽的离别"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2409/"><i class="fa fa-angle-right text-muted pull-right"></i> 世上最美丽的离别</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>日韩剧，<span class="text-muted">地区：</span>韩国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>金英玉,元美京,崔志宇,</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/1bc61a17eaa03445facd3b93b9b21b14.jpg);" href="/vodhtml/2408/" title="王冠第二季"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2408/"><i class="fa fa-angle-right text-muted pull-right"></i> 王冠第二季</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>欧美剧，<span class="text-muted">地区：</span>美国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>克莱尔·芙伊,马特·史密</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/020bee67a8b8daf6411a32010364e481.jpg);" href="/vodhtml/2406/" title="绿光森林"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2406/"><i class="fa fa-angle-right text-muted pull-right"></i> 绿光森林</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>港台剧，<span class="text-muted">地区：</span>台湾</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>阮经天,阮经天,刘品言</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/dea3bb8b18afb3f364e8244cc46fe57a.jpg);" href="/vodhtml/2383/" title="24小时第二季"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2383/"><i class="fa fa-angle-right text-muted pull-right"></i> 24小时第二季</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>欧美剧，<span class="text-muted">地区：</span>美国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>基弗·萨瑟兰,,莎拉·温</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/13ee57a6f4dd1a3a205527b6c0cdbb5a.jpg);" href="/vodhtml/2382/" title="好女孩"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2382/"><i class="fa fa-angle-right text-muted pull-right"></i> 好女孩</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>欧美剧，<span class="text-muted">地区：</span>美国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>曼尼·蒙塔纳,雷诺·维尔</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/ed96ab27fd7ee257cdf207eea71ce6d5.jpg);" href="/vodhtml/2381/" title="幻想快乐第一季"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2381/"><i class="fa fa-angle-right text-muted pull-right"></i> 幻想快乐第一季</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>欧美剧，<span class="text-muted">地区：</span>美国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>克里斯托弗·米洛尼,,帕</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/bf20cc68537e75f5e44a5b604d9a7034.jpg);" href="/vodhtml/2379/" title="摇滚学校第三季"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2379/"><i class="fa fa-angle-right text-muted pull-right"></i> 摇滚学校第三季</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>欧美剧，<span class="text-muted">地区：</span>美国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>Breanna,Yde,</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/8114c4a7dbff2eec472c6e5927beae25.jpg);" href="/vodhtml/2376/" title="过界"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2376/"><i class="fa fa-angle-right text-muted pull-right"></i> 过界</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>国产剧，<span class="text-muted">地区：</span></p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>李东霖,丁子玲,宋允皓,</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/c9dcf58b43f9034e30d51eb6e369d3ab.jpg);" href="/vodhtml/2343/" title="芝加哥急救第三季"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2343/"><i class="fa fa-angle-right text-muted pull-right"></i> 芝加哥急救第三季</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>欧美剧，<span class="text-muted">地区：</span>美国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>尼克·戈尔弗斯,托里·德</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/aaad9f89d10c17f0eb40fcbd5ac84636.jpg);" href="/vodhtml/2335/" title="木木川"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2335/"><i class="fa fa-angle-right text-muted pull-right"></i> 木木川</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>国产剧，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>谢彬彬,,黄德毅,,李俊</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/1051be465aa910522eb02fe1155f7e39.jpg);" href="/vodhtml/2334/" title="龙日一你死定了"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2334/"><i class="fa fa-angle-right text-muted pull-right"></i> 龙日一你死定了</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>国产剧，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>邱赫南,侯佩杉,魏哲鸣,</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/d316bdd51de073b677fa5d4ffbce9ffc.jpg);" href="/vodhtml/2333/" title="东风破"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2333/"><i class="fa fa-angle-right text-muted pull-right"></i> 东风破</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>国产剧，<span class="text-muted">地区：</span></p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>张笑君,,张铎,,牛丽燕</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/d2c2dfde9931c7f43ba7dfc2463c2f7f.jpg);" href="/vodhtml/2332/" title="大军师司马懿之虎啸龙吟"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2332/"><i class="fa fa-angle-right text-muted pull-right"></i> 大军师司马懿之虎</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>国产剧，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>吴秀波,,刘涛,,李晨,</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/353e5f8b37011421dd4ee2b73fd2e442.jpg);" href="/vodhtml/2318/" title="不是机器人啊"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2318/"><i class="fa fa-angle-right text-muted pull-right"></i> 不是机器人啊</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>日韩剧，<span class="text-muted">地区：</span>韩国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>俞承豪,蔡秀彬,严基俊,</p>
+	</div>																										
+</li>	
+													</ul>
+
+    				</div>
+    			</div>
+    																
+    			<div class="col-lg-4 col-md-4 col-sm-2 col-xs-1 padding-0">
+    				<div class="myui-panel_hd">
+    					<div class="myui-panel__head clearfix">
+    						<h3 class="title">
+    							综艺最近更新    						</h3>		
+    						<a class="more text-muted" href="/index.php/vod/show/by/time/id/3.html">更多 <i class="fa fa-angle-right"></i></a>
+    					</div>
+    				</div>
+    				<div class="myui-panel_bd clearfix">
+						<ul class="myui-vodlist__media active col-pd clearfix">
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/9c9561f165a15ec27aa5a1a601dfbcf9.jpg);" href="/vodhtml/2413/" title="穿越吧"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2413/"><i class="fa fa-angle-right text-muted pull-right"></i> 穿越吧</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>综艺，<span class="text-muted">地区：</span></p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/123fe469a368dc00081070ce6a53ef85.jpg);" href="/vodhtml/2403/" title="2017两岸青年原创金曲大选"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2403/"><i class="fa fa-angle-right text-muted pull-right"></i> 2017两岸青年</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>综艺，<span class="text-muted">地区：</span>中国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/3ed649c0323deee57e8a890af1640d77.jpg);" href="/vodhtml/2368/" title="Nikita你去哪"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2368/"><i class="fa fa-angle-right text-muted pull-right"></i> Nikita你去</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>综艺，<span class="text-muted">地区：</span>中国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/20842cfbdc340ad1fb0a417860685c86.jpg);" href="/vodhtml/2366/" title="中国式婚恋"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2366/"><i class="fa fa-angle-right text-muted pull-right"></i> 中国式婚恋</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>综艺，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/d35097bbc5f761a1bac1e55414756525.jpg);" href="/vodhtml/2365/" title="V辣说"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2365/"><i class="fa fa-angle-right text-muted pull-right"></i> V辣说</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>综艺，<span class="text-muted">地区：</span>中国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/6d9e9841db92ddce64e5aa568014596d.jpg);" href="/vodhtml/2364/" title="今夜欢乐颂"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2364/"><i class="fa fa-angle-right text-muted pull-right"></i> 今夜欢乐颂</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>综艺，<span class="text-muted">地区：</span></p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/490cef1c4ad01d2e6080ebacbf9724f6.jpg);" href="/vodhtml/2363/" title="一路书香"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2363/"><i class="fa fa-angle-right text-muted pull-right"></i> 一路书香</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>综艺，<span class="text-muted">地区：</span></p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>窦文涛,张星月</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/e98500b06cdcb830231a041ee4e353f9.jpg);" href="/vodhtml/2362/" title="中国乐队"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2362/"><i class="fa fa-angle-right text-muted pull-right"></i> 中国乐队</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>综艺，<span class="text-muted">地区：</span></p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>李元</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/45d19ae73eb19d881ccd65315a537631.jpg);" href="/vodhtml/2361/" title="生活也嘻哈"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2361/"><i class="fa fa-angle-right text-muted pull-right"></i> 生活也嘻哈</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>综艺，<span class="text-muted">地区：</span>中国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/4bcc4062bf36e9b6b3806c20720a3fb4.jpg);" href="/vodhtml/2359/" title="亲爱的客栈第二季"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2359/"><i class="fa fa-angle-right text-muted pull-right"></i> 亲爱的客栈第二季</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>综艺，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>王珂,刘涛,王鹤棣,武艺</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/c1eca2d110571878b8277d55674bb536.jpg);" href="/vodhtml/2337/" title="有机青年"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2337/"><i class="fa fa-angle-right text-muted pull-right"></i> 有机青年</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>综艺，<span class="text-muted">地区：</span></p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/10bea26100a68c782ef446d3cf9ea082.jpg);" href="/vodhtml/2336/" title="假如说Case"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2336/"><i class="fa fa-angle-right text-muted pull-right"></i> 假如说Case</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>综艺，<span class="text-muted">地区：</span>中国</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/d8c8a54b5c69496fe302fa802d52a4cc.jpg);" href="/vodhtml/2310/" title="家风中华"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2310/"><i class="fa fa-angle-right text-muted pull-right"></i> 家风中华</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>综艺，<span class="text-muted">地区：</span></p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/d1cf3a0d244ea042f4345514941ca5f9.jpg);" href="/vodhtml/2309/" title="建川龙门阵"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2309/"><i class="fa fa-angle-right text-muted pull-right"></i> 建川龙门阵</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>综艺，<span class="text-muted">地区：</span></p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/d7d4e39aafe48581fc3854b4db299fa1.jpg);" href="/vodhtml/2308/" title="军武大本营第二季"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2308/"><i class="fa fa-angle-right text-muted pull-right"></i> 军武大本营第二季</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>综艺，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>毕蜂,张召忠</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/d1d7ed1517bf74416abb32b80c293e73.jpg);" href="/vodhtml/2307/" title="疯狂顺风车第一季"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2307/"><i class="fa fa-angle-right text-muted pull-right"></i> 疯狂顺风车第一季</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>综艺，<span class="text-muted">地区：</span></p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/cedd026f461ed3b49d2ca3e6fa319c57.jpg);" href="/vodhtml/2283/" title="德云社张九龄王九龙相声专场北京站"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2283/"><i class="fa fa-angle-right text-muted pull-right"></i> 德云社张九龄王九</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>综艺，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>张九龄,王九龙,王筱阁,</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/de35e9fe6d5d42ebd1932b54a25c931e.jpg);" href="/vodhtml/2249/" title="帕帕帮"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2249/"><i class="fa fa-angle-right text-muted pull-right"></i> 帕帕帮</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>综艺，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+													</ul>
+
+    				</div>
+    			</div>
+    																
+    			<div class="col-lg-4 col-md-4 col-sm-2 col-xs-1 padding-0">
+    				<div class="myui-panel_hd">
+    					<div class="myui-panel__head clearfix">
+    						<h3 class="title">
+    							动漫最近更新    						</h3>		
+    						<a class="more text-muted" href="/index.php/vod/show/by/time/id/4.html">更多 <i class="fa fa-angle-right"></i></a>
+    					</div>
+    				</div>
+    				<div class="myui-panel_bd clearfix">
+						<ul class="myui-vodlist__media active col-pd clearfix">
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/48d8b36f1a9029d63ac8548bd78db9cd.jpg);" href="/vodhtml/2414/" title="汽车城之超级变形卡车"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2414/"><i class="fa fa-angle-right text-muted pull-right"></i> 汽车城之超级变形</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动漫，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/ed5a419994ede632ed382ff74b8e91c6.jpg);" href="/vodhtml/2415/" title="猪猪侠之五灵守卫者"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2415/"><i class="fa fa-angle-right text-muted pull-right"></i> 猪猪侠之五灵守卫</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动漫，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/194ae36f1506385a5ab07f07d4c15f8a.jpg);" href="/vodhtml/2416/" title="猪猪侠之终极决战前夜篇"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2416/"><i class="fa fa-angle-right text-muted pull-right"></i> 猪猪侠之终极决战</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动漫，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/eb457d33855426c188f98deb2730057b.jpg);" href="/vodhtml/2404/" title="和迷你卡车学习第二季"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2404/"><i class="fa fa-angle-right text-muted pull-right"></i> 和迷你卡车学习第</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动漫，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/f3ce0921f7247785bf3a6086110f7c0b.jpg);" href="/vodhtml/2405/" title="汽车城之火车特洛伊第二季"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2405/"><i class="fa fa-angle-right text-muted pull-right"></i> 汽车城之火车特洛</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动漫，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/fb88648427c19771af0b69d8e775eaa0.jpg);" href="/vodhtml/2369/" title="宝宝巴士欢乐圣诞"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2369/"><i class="fa fa-angle-right text-muted pull-right"></i> 宝宝巴士欢乐圣诞</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动漫，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/24c968358a5c6ca17efa04f5822c907f.jpg);" href="/vodhtml/2370/" title="怪物公寓第二季"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2370/"><i class="fa fa-angle-right text-muted pull-right"></i> 怪物公寓第二季</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动漫，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/c9fa8f624a755cde99f25b92ae5f744f.jpg);" href="/vodhtml/2371/" title="滚滚故事学诗词"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2371/"><i class="fa fa-angle-right text-muted pull-right"></i> 滚滚故事学诗词</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动漫，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/caf4eeb0d9a57d3256256d547300012a.jpg);" href="/vodhtml/2372/" title="哈哈滑小稽"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2372/"><i class="fa fa-angle-right text-muted pull-right"></i> 哈哈滑小稽</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动漫，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/ab5844b232bcc4ba4e5214974a6d1792.jpg);" href="/vodhtml/2373/" title="会说话的家族游戏系列"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2373/"><i class="fa fa-angle-right text-muted pull-right"></i> 会说话的家族游戏</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动漫，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/94992ffbb18f24ba64f110249a908b6c.jpg);" href="/vodhtml/2374/" title="踢踢和奇奇之魔力课堂第三季"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2374/"><i class="fa fa-angle-right text-muted pull-right"></i> 踢踢和奇奇之魔力</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动漫，<span class="text-muted">地区：</span></p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/39f3bc10e433b8c0d15738030b6171b1.jpg);" href="/vodhtml/2338/" title="汽车城之汤姆的油漆店"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2338/"><i class="fa fa-angle-right text-muted pull-right"></i> 汽车城之汤姆的油</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动漫，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/ca4ca4c6e895c2f6f80e509cf4871fb9.jpg);" href="/vodhtml/2339/" title="拳皇命运"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2339/"><i class="fa fa-angle-right text-muted pull-right"></i> 拳皇命运</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动漫，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/69ebaeb34f8072e9f202949153dcbb0f.jpg);" href="/vodhtml/2340/" title="识颜色"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2340/"><i class="fa fa-angle-right text-muted pull-right"></i> 识颜色</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动漫，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/58d0df1bf327bd91b3e672a8cbe8faf5.jpg);" href="/vodhtml/2341/" title="晚安玩具熊"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2341/"><i class="fa fa-angle-right text-muted pull-right"></i> 晚安玩具熊</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动漫，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/fa3be2410be20be92e5505c77975d854.jpg);" href="/vodhtml/2342/" title="妖怪名单第二季"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2342/"><i class="fa fa-angle-right text-muted pull-right"></i> 妖怪名单第二季</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动漫，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span>李郝瑞,文晓依,龟娘</p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/895202d26989349d249944e0775dad7e.jpg);" href="/vodhtml/2311/" title="多乐儿童画"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2311/"><i class="fa fa-angle-right text-muted pull-right"></i> 多乐儿童画</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动漫，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+															<li>
+	<div class="thumb">
+		<a class="myui-vodlist__thumb img-xs-70" style="background: url(/upload/vod/20201116-2/2b93267b80e61037606b07261b765f09.jpg);" href="/vodhtml/2312/" title="黑猫警长救援队"></a>
+	</div>
+	<div class="detail detail-side">
+		<h4 class="title"><a href="/vodhtml/2312/"><i class="fa fa-angle-right text-muted pull-right"></i> 黑猫警长救援队</a></h4>
+		<p class="font-12"><span class="text-muted">类型：</span>动漫，<span class="text-muted">地区：</span>大陆</p>		
+		<p class="font-12 margin-0"><span class="text-muted">主演：</span></p>
+	</div>																										
+</li>	
+													</ul>
+
+    				</div>
+    			</div>
+    			    		</div>
+    	</div>	
+    </div>
+</div>
+<div class="myui-foot clearfix">
+	<div class="container min">
+		<div class="row">
+			<div class="col-pd text-center">
+				<p>本站所有视频和图片均来自互联网收集而来，版权归原创者所有，本网站只提供web页面服务，并不提供资源存储，也不参与录制、上传<br>若本站收录的节目无意侵犯了贵司版权，请发邮件至123456@qq.com （我们会在3个工作日内删除侵权内容，谢谢。）</p>	
+				<p class="hidden-xs">
+					<a target="_blank" href="/map.html">网站地图</a><span class="split-line"></span>
+					<a target="_blank" href="/rss/index.xml">RSS订阅</a><span class="split-line"></span>
+					<a target="_blank" href="/rss/baidu.xml">百度蜘蛛</a><span class="split-line"></span>
+					<a target="_blank" href="/rss/google.xml">谷歌地图</a><span class="split-line"></span>
+					<a target="_blank" href="/rss/bing.xml">必应地图</a><span class="split-line"></span>
+					<a target="_blank" href="/rss/so.xml">360地图</a><span class="split-line"></span>
+					<a target="_blank" href="/rss/sogou.xml">搜狗地图</a>
+				</p>	
+				<p class="margin-0">
+					© 2019 ZuoZ.NET 破解 京ICP备888888号				</p>
+				<div class="tongji"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--登录弹窗开始-->
+<div class="myui-msg__form ajax_login" style="display: none; width: 290px; padding: 50px 30px 20px; margin: 0; box-shadow: none;">
+	<div class="myui-panel clearfix">
+		<div class="myui-panel-box clearfix">		
+			<div class="myui-panel_bd">
+				<div class="myui-msg__head text-center">
+					<p>登录账号</p>
+				</div>
+				<form class="mac_login_form">
+					<p>
+						<input type="text" class="form-control" name="user_name" placeholder="手机/登录账号">
+					</p>
+					<p>
+						<input type="password" class="form-control" name="user_pwd" placeholder="登录密码">
+					</p>
+										<p>
+						<a href="javascript:;" class="btn btn-block btn-primary login_form_submit">登录</a>
+					</p>
+					<p>
+						<a class="pull-right" href="/index.php/user/reg.html">注册</a>
+						<a href="/index.php/user/findpass.html">忘记密码</a>
+					</p>
+				</form>
+							</div>
+		</div>
+	</div>
+</div>
+<!--登录弹窗结束-->
+
+<div class="myui-nav__tabbar">
+		<a class="item" href="#/index.php/vod/type/id/1.html">
+		<img class="icon-img" src="/template/mytheme/statics/icon/icon1.png"/><p class="title">电影</p>
+		</a>
+		<a class="item" href="#/index.php/vod/type/id/2.html">
+		<img class="icon-img" src="/template/mytheme/statics/icon/icon2.png"/><p class="title">剧集</p>
+		</a>
+		<a class="item" href="#/index.php/vod/type/id/3.html">
+		<img class="icon-img" src="/template/mytheme/statics/icon/icon3.png"/><p class="title">综艺</p>
+		</a>
+		<a class="item" href="#/index.php/vod/type/id/4.html">
+		<img class="icon-img" src="/template/mytheme/statics/icon/icon4.png"/><p class="title">动漫</p>
+		</a>
+		<a class="item" href="#/index.php/topic/">
+		<img class="icon-img" src="/template/mytheme/statics/icon/icon5.png"/><p class="title">专题</p>
+		</a>
+		<a class="item" href="#/index.php/actor/">
+		<img class="icon-img" src="/template/mytheme/statics/icon/icon6.png"/><p class="title">明星</p>
+		</a>
+	</div>
+<ul class="myui-extra clearfix">
+	<li>
+		<a class="backtop" href="javascript:scroll(0,0)" title="返回顶部" style="display: none;"><i class="fa fa-angle-up"></i></a>
+	</li>
+		<li>
+		<a class="btnskin" href="javascript:;" title="切换皮肤"><i class="fa fa-windows"></i></a>
+	</li>
+		<li class="visible-xs">
+		<a class="open-share" href="javascript:;" title="分享给朋友"><i class="fa fa-share-alt"></i></a>
+	</li>
+		<li class="dropdown-hover hidden-xs">
+		<a href="javascript:;" title="关注我们" onclick="MyTheme.Layer.Img('关注我们','/template/mytheme/statics/img/weixincode.png','扫一扫关注我们')"><i class="fa fa-wechat"></i></a>
+		<div class="dropdown-box right fadeInDown clearfix">
+			<div class="item text-center">
+				<div class="qrcode-box">
+					<img class="img-responsive" src="/template/mytheme/statics/img/weixincode.png" />
+				</div>
+				<p>扫一扫关注我们</p>
+			</div>
+		</div>
+	</li>
+	<li><a href="#/gbook" title="留言反馈"><i class="fa fa-commenting"></i></a></li></ul>
+<div class="noticetext hide"><div style="padding: 20px 30px;">
+本模板由佐佐网破解 购买地址 ：<a href="http://zuoz.net/zuoz/83.html">http://zuoz.net/zuoz/83.html
+</div></div><script type="text/javascript">
+	MyTheme.Images.Qrcode.Init();MyTheme.Other.Skin();MyTheme.Other.Share();MyTheme.Layer.Popbody('allpop','弹窗公告','.noticetext',1,'350','400');</script>
+
+</body>
+</html>
